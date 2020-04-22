@@ -26,6 +26,7 @@ requirements:
     - pint
     - scipy
     - openpmd-beamphysics
+    - yaml
 
 test:
   imports:
