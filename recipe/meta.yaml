@@ -1,5 +1,5 @@
 {% set name = "distgen" %}
-{% set version = "0.1.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://github.com/ColwynGulliford/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 741f8739973d3025a6c2f983e71bf466140aadb639c2e4ac2d6f12a0e1b9d7e1
+  sha256: 9e608c1c02785a7cb8288b5a7e0547a8a3f1a5a555a868e906d1071bb89f4748
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
-requirements:  
+requirements:
   host:
     - python >=3.6
     - pip
@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - h5py
     - matplotlib-base
-    - numpy    
+    - numpy
     - pint
     - scipy
 
@@ -35,7 +35,7 @@ about:
   license: APACHE-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: 'Particle distribution generator'
+  summary: Particle distribution generator
   description: |
     Particle distribution generator
 
