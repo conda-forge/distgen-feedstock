@@ -25,7 +25,7 @@ requirements:
     - numpy    
     - pint
     - scipy
-    - openpmd_beamphysics
+    - openpmd-beamphysics
 
 test:
   imports:
