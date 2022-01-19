@@ -27,6 +27,7 @@ requirements:
     - scipy
     - openpmd-beamphysics
     - pyyaml
+    - lume-base
 
 test:
   imports:
