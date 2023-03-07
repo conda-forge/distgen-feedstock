@@ -1,11 +1,11 @@
-About distgen
-=============
+About distgen-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/distgen-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ColwynGulliford/distgen
 
 Package license: APACHE-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/distgen-feedstock/blob/main/LICENSE.txt)
 
 Summary: Particle distribution generator
 
