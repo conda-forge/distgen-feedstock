@@ -7,19 +7,20 @@ package:
 
 source:
   url: https://github.com/ColwynGulliford/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: d7284cc5819abc229015547e1de1a4fcd6f822c0d38f6deb2247a4286e59af85
+  sha256: 1293a873214563ef1e67d184840a412cc53952d5762a542b47a22021e4b77c0b
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9,<3.13
     - pip
+    - setuptools
   run:
-    - python >=3.6
+    - python >=3.9,<3.13
     - h5py
     - matplotlib-base
     - numpy
@@ -36,8 +37,8 @@ test:
 
 about:
   home: https://github.com/ColwynGulliford/{{ name }}
-  license: APACHE-2.0
-  license_family: APACHE
+  license: Apache-2.0
+  license_family: Apache
   license_file: LICENSE
   summary: Particle distribution generator
   description: |
