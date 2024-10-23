@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ColwynGulliford/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: d7284cc5819abc229015547e1de1a4fcd6f822c0d38f6deb2247a4286e59af85
+  sha256: 1293a873214563ef1e67d184840a412cc53952d5762a542b47a22021e4b77c0b
 
 build:
   noarch: python
