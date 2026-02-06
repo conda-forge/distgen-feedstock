@@ -1,5 +1,5 @@
 {% set name = "distgen" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ColwynGulliford/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 5a67776f9519ce45ecf4ee4d4819d6ebc255df76f425c14c65de532004d5d025
+  sha256: f481bb7448659ad1ba2eadcfc3c45dbb995ed5970e623aa9c16572d800c2a5ea
 
 build:
   noarch: python
